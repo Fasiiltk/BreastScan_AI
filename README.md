@@ -15,11 +15,12 @@ The tool provides **real-time predictions**, confidence metrics, and downloadabl
 5. [Literature Review](#literature-review)  
 6. [System Design / Methodology](#system-design--methodology)  
 7. [Implementation](#implementation)  
-8. [Results & Evaluation](#results--evaluation)  
-9. [Discussion & Insights](#discussion--insights)  
-10. [Conclusion & Future Scope](#conclusion--future-scope)  
-11. [Deliverables](#deliverables)  
-12. [References](#references)  
+8. [Dataset Overview](#dataset-overview)  
+9. [Results & Evaluation](#results--evaluation)  
+10. [Discussion & Insights](#discussion--insights)  
+11. [Conclusion & Future Scope](#conclusion--future-scope)  
+12. [Deliverables](#deliverables)  
+13. [References](#references)  
 
 ---
 
@@ -129,6 +130,23 @@ Traditional methods lack automation and scalability, making **timely and accurat
 
 ---
 
+## Dataset Overview
+The project uses the [Breast Ultrasound Images Dataset](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset) available on Kaggle.  
+
+**Dataset Details:**  
+- Total Images: 780  
+- Classes:  
+  - **Benign:** Non-cancerous tumors  
+  - **Malignant:** Cancerous tumors  
+  - **Normal:** Healthy tissue  
+- Image Format: PNG  
+- Size: ~500x500 pixels  
+- Purpose: Used for training, validating, and testing the CNN model.  
+
+**Download Dataset:** [Kaggle Dataset Link](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)  
+
+---
+
 ## Results & Evaluation
 | Metric | Value |
 |--------|-------|
@@ -175,7 +193,7 @@ BreastScan AI demonstrates effective application of deep learning in breast ultr
 ---
 
 ## References
-- Kaggle Dataset – Arya Shah: Breast Ultrasound Images Dataset  
+- Kaggle Dataset – Arya Shah: [Breast Ultrasound Images Dataset](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)  
 - TensorFlow Documentation: [https://www.tensorflow.org](https://www.tensorflow.org)  
 - Keras Documentation: [https://keras.io](https://keras.io)  
 - Yala, A. et al. (2019). *Deep Learning for Breast Cancer Detection*. Nature Medicine  
